@@ -16,7 +16,7 @@ app.use(fileUpload({
 
 
 const PORT = process.env.PORT || 3000;
-const URL = process.env.MONGODB_URI;
+const URL = process.env.URI;
 
 mongoose.connect(URL, {})
     .then(() => {
